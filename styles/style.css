@@ -49,3 +49,25 @@ color: var(--Dark-03, #727272);
     font-size: 4rem;
     text-align: center;
 }
+.banner-paragraph{
+    max-width: 862px;
+    margin: 30px auto;
+    text-align: center;
+}
+.btn-primary{
+border: none;
+border-radius: 8px;
+background: #FF900E;
+width: 180px;
+height: 64px;
+margin-bottom: 70px;
+}
+.banner-btn-text{
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.banner-img{
+    max-width: 1440px;
+    margin: 0 auto;
+}
