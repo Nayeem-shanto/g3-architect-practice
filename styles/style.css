@@ -57,17 +57,55 @@ color: var(--Dark-03, #727272);
 .btn-primary{
 border: none;
 border-radius: 8px;
+color: white;
 background: #FF900E;
 width: 180px;
 height: 64px;
 margin-bottom: 70px;
-}
-.banner-btn-text{
-    color: white;
-    font-weight: 600;
+font-weight: 600;
     font-size: 1rem;
 }
 .banner-img{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+
+/* Quick Features */
+.features-container{
+    display: flex;
+   align-items: center;
+   max-width: 1200px;
+   margin: 40px auto;
+   gap: 50px;
+   
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.quick-feature-title{
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+/* Responsive Part */
+
+/* For Small device */
+@media screen and(min-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .banner-img{
+        width: 50%;
+    }
+
+
+
 }
