@@ -1,0 +1,51 @@
+/* google font- work sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.google font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* --------------------------------- */
+/* Header related styles */
+nav a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+.nav-heading-text{
+font-size: 3rem;
+}
+.nav-list-item{
+
+font-size: 1.2rem;
+}
+/* font color */
+.dark-1{
+color: var(--Dark-01, #131313);
+}
+.dark-2{
+color: var(--Dark-02, #424242);
+}
+.dark-3{
+color: var(--Dark-03, #727272);
+}
+.banner-title{
+    max-width: 862px;
+    margin: 0 auto;
+    font-size: 4rem;
+    text-align: center;
+}
