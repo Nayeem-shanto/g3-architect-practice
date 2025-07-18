@@ -157,6 +157,15 @@ align-items: center;
 
 }
 
+/* sponsor part */
+.sponsor-container{
+    text-align: center;
+}
+.sponsor-img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
 
 
 
