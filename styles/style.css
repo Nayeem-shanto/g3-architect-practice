@@ -167,6 +167,17 @@ align-items: center;
     justify-items: center;
 }
 
+/* footer */
+.footer{
+border-radius: 8px;
+background: #FFF4E7;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
 
 
 
