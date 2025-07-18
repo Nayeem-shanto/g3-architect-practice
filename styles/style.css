@@ -95,6 +95,8 @@ font-weight: 600;
     margin: 10px auto;
 }
 .feature-love-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
     font-size: 2.8125rem;
     max-width: 468px;
     font-weight: 700;
@@ -127,6 +129,34 @@ color: white;
 font-size: 4.1rem;
 font-weight: bold;
 }
+
+/* some facts */
+.some-fact-container{
+    margin: 100px;
+}
+.some-fact-title{
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+.fact-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    text-align: center;
+
+}
+.fact-card{
+width: 241.831px;
+height: 241.831px;
+border-radius: 8px;
+border: 1px solid #FF900E;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
 
 
 
