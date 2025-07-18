@@ -42,6 +42,7 @@ color: var(--Dark-02, #424242);
 }
 .dark-3{
 color: var(--Dark-03, #727272);
+
 }
 .banner-title{
     max-width: 862px;
@@ -88,6 +89,45 @@ font-weight: 600;
 .quick-feature-title{
     font-size: 3rem;
 }
+.love-features-container{
+    display: flex;
+    max-width: 1440px;
+    margin: 10px auto;
+}
+.feature-love-title{
+    font-size: 2.8125rem;
+    max-width: 468px;
+    font-weight: 700;
+}
+.love-features-card{
+width: 586px;
+height: 171px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(155, 129, 129, 0.06);
+padding-left: 33px;
+padding-right: 33px;
+}
+.love-features-card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.love-feature-img{
+    margin-left: 100px;
+}
+.btn-10eyars{
+border-radius: 8px;
+background: #FF900E;
+border: none;
+margin-top: -80px;
+
+}
+.year{
+color: white;
+font-size: 4.1rem;
+font-weight: bold;
+}
+
 
 
 
